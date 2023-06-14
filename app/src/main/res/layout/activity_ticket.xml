@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--edit text for entering amount to be paid-->
+    <EditText
+        android:id="@+id/idEdtAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="8dp"
+        android:hint="Enter Amount to be paid"
+        android:textSize="16sp"
+        android:drawableStart="@drawable/baseline_currency_rupee_black_24dp"
+        android:drawablePadding="8dp" />
+
+    <!--edit text for entering the upi id
+        to which we have to make payment-->
+    <EditText
+        android:id="@+id/idEdtUpi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idEdtAmount"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="8dp"
+        android:hint="Enter your UPI Id"
+        android:inputType="text"
+        android:textSize="16sp"
+        android:drawableStart="@drawable/baseline_payment_black_24dp"
+        android:drawablePadding="8dp"
+        android:fontFamily="sans-serif" />
+
+    <EditText
+        android:id="@+id/idEdtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idEdtUpi"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="8dp"
+        android:hint="Enter your Name"
+        android:inputType="text"
+        android:textSize="16sp"
+        android:drawableStart="@drawable/baseline_person_black_24dp"
+        android:drawablePadding="8dp"
+        android:fontFamily="sans-serif" />
+
+    <EditText
+        android:id="@+id/idEdtDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idEdtName"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="8dp"
+        android:hint="Enter Payment Description"
+        android:inputType="text"
+        android:textSize="16sp"
+        android:drawableStart="@drawable/baseline_description_black_24dp"
+        android:drawablePadding="8dp"
+        android:fontFamily="sans-serif" />
+
+
+    <!--button for making a payment-->
+    <Button
+        android:id="@+id/idBtnMakePayment"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/idEdtDescription"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Make Payment"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/gradient4"
+        android:elevation="4dp"
+        android:padding="8dp"
+        android:gravity="center" />
+
+
+
+    <!--text view for displaying transaction status-->
+    <TextView
+        android:id="@+id/idTVTransactionDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idBtnMakePayment"
+        android:layout_marginTop="30dp"
+        android:text="Transaction Details"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
+        android:visibility="gone" />
+
+</RelativeLayout>

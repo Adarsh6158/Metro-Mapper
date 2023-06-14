@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_indian_flag"
+    tools:context=".AboutActivity3">
+
+    <TextView
+        android:id="@+id/textHeading2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Noida Metro"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:paddingTop="24dp"
+        android:paddingBottom="24dp"
+        android:paddingStart="32dp"
+        android:paddingEnd="32dp"
+        android:background="#2196F3"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+    <Button
+        android:id="@+id/buttonAbout"
+        android:layout_width="157dp"
+        android:layout_height="118dp"
+        android:layout_marginTop="176dp"
+        android:background="@drawable/gradient4"
+        android:padding="12dp"
+        android:stateListAnimator="@animator/button_anim"
+        android:text="About"
+        android:drawableStart="@drawable/tram"
+        android:drawablePadding="8dp"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/buttonSearch"
+        app:layout_constraintHorizontal_bias="0.296"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonSearch"
+        android:layout_width="157dp"
+        android:layout_height="118dp"
+        android:layout_marginTop="168dp"
+        android:background="@drawable/gradient4"
+        android:drawableStart="@drawable/search_button"
+        android:drawablePadding="8dp"
+        android:padding="12dp"
+        android:stateListAnimator="@animator/button_anim"
+        android:text="Search"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/buttonMaps"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.87"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.081" />
+
+    <Button
+        android:id="@+id/buttonFare"
+        android:layout_width="157dp"
+        android:layout_height="118dp"
+        android:layout_marginTop="268dp"
+        android:background="@drawable/gradient4"
+        android:padding="12dp"
+        android:text="Fare"
+        android:drawableStart="@drawable/currency_rupee"
+        android:drawablePadding="8dp"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonMaps"
+        app:layout_constraintHorizontal_bias="0.349"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.336"
+        android:stateListAnimator="@animator/button_anim"/>
+
+    <Button
+        android:id="@+id/buttonMaps"
+        android:layout_width="157dp"
+        android:layout_height="118dp"
+        android:layout_marginTop="268dp"
+        android:background="@drawable/gradient4"
+        android:drawableStart="@drawable/location"
+        android:drawablePadding="8dp"
+        android:padding="12dp"
+        android:stateListAnimator="@animator/button_anim"
+        android:text="Maps"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.87"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.336" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

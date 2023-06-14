@@ -1,0 +1,276 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delhi  Metro"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="#333333"
+            android:background="@drawable/heading_background"
+            android:padding="16dp"
+            android:gravity="center" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Delhi Metro is a fast transport system serving the cities of Delhi and NCR in India which includes the cities of Ghaziabad, Faridabad, Gurgaon, Noida, Bahadurgarh and Ballabhgarh. Presently there are 230 active stations in Delhi Metro network. Find important and useful information like Delhi Metro route, metro lines, service operation timings, first train, last train, route map, fare chart, top attractions near metro station, metro station nearby, news and more."
+            android:textSize="20sp"
+            android:textColor="#333333"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+            android:layout_marginTop="16dp" />
+
+
+        <!-- Add more views as needed -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:layout_marginTop="12dp"
+            >
+
+            <!-- Row 1 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="6dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="8dp"
+                android:background="@drawable/table_row_background">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Operator"
+                    android:textSize="20sp"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Namma Metro Bangalore"
+                    android:textSize="18sp"
+                    android:textColor="#000000"/>
+
+            </LinearLayout>
+            <!-- Row 2 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/table_row_background">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Operation start"
+                    android:textSize="20sp"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="	24 December 2002"
+                    android:textSize="18sp"
+                    android:textColor="#000000"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/table_row_background">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Number of lines"
+                    android:textSize="20sp"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="10 Metro Lines"
+                    android:textSize="18sp"
+                    android:textColor="#000000"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/table_row_background">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Train length"
+                    android:textSize="20sp"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="	4/6/8 Coaches"
+                    android:textSize="18sp" android:textColor="#000000"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/table_row_background">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="No. of stations"
+                    android:textSize="20sp"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="	230 Active Stations"
+                    android:textSize="18sp"
+                    android:textColor="#000000"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/table_row_background">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Metro Timings"
+                    android:textSize="20sp"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="⏱Starting | Ending
+05:30 AM | 11:00 PM"
+                    android:textSize="16sp"
+                    android:textColor="#000000"/>
+
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="&#8226; Delhi metro managed by and owned by Delhi Metro Rail Corporation a joint venture between Govt. of NCT and Govt of India."
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="16dp"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textStyle="italic"
+            android:paddingRight="16dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="&#8226;Delhi metro is busiest and largest metro system in India with most number of stations."
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textStyle="italic"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="&#8226;Delhi metro serving its transit system not only to Delhi city but also NCR cities including Gurgaon, Noida, Faridabad, Ghaziabad and Bahadurgarh."
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textStyle="italic"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="&#8226; Delhi metro has various platform system including underground, elevated and ground level."
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textStyle="italic"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="&#8226; Delhi metro trains have various numbers of coaches like 4, 6 or 8 coaches, have a frequency of 1-4 minutes during peak hours and 5-10 minutes during non-peak hours."
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textStyle="italic"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="&#8226; Penalty for ticketless travel or lost ticket is Rs.200/- apart from maximum token fare."
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textStyle="italic"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="&#8226; Hauz Khas metro station (Pink Line), 29 metres below the ground, is the deepest station while the crossing of Pink and Orange Lines in Dhaula Kuan metro station is the highest point on the system, 23.6 km above the ground."
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textStyle="italic"/>
+    </LinearLayout>
+</ScrollView>

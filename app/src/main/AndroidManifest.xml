@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.metromapper">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/delhi_metro_logo1"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/delhi_metro_logo1"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".RouteActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".SearchActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".RouteActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".SearchActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".MapsActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".FareActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".GurugramActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NoidaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FareActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".MapsActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".AboutActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".AboutActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".DelhiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FareActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MapsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AboutActivity1"
+            android:exported="false" />
+        <activity
+            android:name=".BangaloreActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TicketActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Station"
+            android:exported="false" />
+        <activity
+            android:name=".SearchActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".SearchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RouteActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".RouteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QrActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MapsActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".Graph"
+            android:exported="false" />
+        <activity
+            android:name=".FareActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".cardview"
+            android:exported="false" />
+        <activity
+            android:name=".AboutActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

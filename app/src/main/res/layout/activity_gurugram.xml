@@ -1,0 +1,276 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gurugram  Metro"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="#333333"
+            android:background="@drawable/heading_background"
+            android:padding="16dp"
+            android:gravity="center" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Gurgaon Metro is a rapid transit system serving the city of Gurgaon in Haryana, India. Currently Gurgaon Metro network has 10 active stations. Find important and useful information like Gurgaon Metro route, metro lines, service operation timings, first train, last train, route map, fare chart, top attractions near metro station, metro station nearby, news and more."
+            android:textSize="20sp"
+            android:textColor="#333333"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+            android:layout_marginTop="16dp" />
+
+
+        <!-- Add more views as needed -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:layout_marginTop="12dp"
+            >
+
+            <!-- Row 1 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="6dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="8dp"
+                android:background="@drawable/table_row_background">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Operator"
+                    android:textSize="20sp"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Delhi Metro Rail Corporation (DMRC)"
+                    android:textSize="18sp"
+                    android:textColor="#000000"/>
+
+            </LinearLayout>
+            <!-- Row 2 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/table_row_background">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Operation start"
+                    android:textSize="20sp"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="	14 November 2013"
+                    android:textSize="18sp"
+                    android:textColor="#000000"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/table_row_background">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Number of lines"
+                    android:textSize="20sp"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="	1 Metro Lines"
+                    android:textSize="18sp"
+                    android:textColor="#000000"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/table_row_background">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Train length"
+                    android:textSize="20sp"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="	3 Coaches"
+                    android:textSize="18sp" android:textColor="#000000"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/table_row_background">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="No. of stations"
+                    android:textSize="20sp"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="	10 Active Stations"
+                    android:textSize="18sp"
+                    android:textColor="#000000"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/table_row_background">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Metro Timings"
+                    android:textSize="20sp"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="⏱Starting | Ending
+05:30 AM | 11:30 PM"
+                    android:textSize="16sp"
+                    android:textColor="#000000"/>
+
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="&#8226;Rapid Metro, India's first fully privately financed Metro system connecting NH#8 to Delhi Metro via Cyber City and Golf Course Road."
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="16dp"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textStyle="italic"
+            android:paddingRight="16dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="&#8226;Rapid Metro is a fully elevated rapid transit system for the commuters and citizens of Gurugram."
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textStyle="italic"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="&#8226;Each train car is provided with four sets of electric bi-parting and sliding plug doors on both sides"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textStyle="italic"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="&#8226; The train draws power supply from third rail, equipped with 750 V DC."
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textStyle="italic"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="&#8226; Train speed reduces automatically by ATP/ATC system on curves which further reduces sound during turning."
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textStyle="italic"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="&#8226; Penalty for ticketless travel or lost ticket is Rs.200/- apart from maximum token fare."
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textStyle="italic"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="&#8226; Promotional Fare for both Phases together is Rs. 20 and Rs. 35."
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textStyle="italic"/>
+    </LinearLayout>
+</ScrollView>

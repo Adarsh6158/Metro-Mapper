@@ -1,0 +1,276 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Noida  Metro"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="#333333"
+            android:background="@drawable/heading_background"
+            android:padding="16dp"
+            android:gravity="center" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Noida Metro is a rapid transit system serving the city of Noida in Uttar Pradesh, India. Currently Noida Metro network has 21 active stations. Find important and useful information like Noida Metro route, metro lines, service operation timings, first train, last train, route map, fare chart, top attractions near metro station, metro station nearby, news and more."
+            android:textSize="20sp"
+            android:textColor="#333333"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+            android:layout_marginTop="16dp" />
+
+
+        <!-- Add more views as needed -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:layout_marginTop="12dp"
+            >
+
+            <!-- Row 1 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="6dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="8dp"
+                android:background="@drawable/table_row_background">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Operator"
+                    android:textSize="20sp"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Noida Metro Rail Corporation (NMRC)"
+                    android:textSize="18sp"
+                    android:textColor="#000000"/>
+
+            </LinearLayout>
+            <!-- Row 2 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/table_row_background">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Operation start"
+                    android:textSize="20sp"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="	25 January 2019"
+                    android:textSize="18sp"
+                    android:textColor="#000000"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/table_row_background">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Number of lines"
+                    android:textSize="20sp"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="	1 Metro Lines"
+                    android:textSize="18sp"
+                    android:textColor="#000000"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/table_row_background">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Train length"
+                    android:textSize="20sp"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="	4 Coaches"
+                    android:textSize="18sp" android:textColor="#000000"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/table_row_background">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="No. of stations"
+                    android:textSize="20sp"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="	21 Active Stations"
+                    android:textSize="18sp"
+                    android:textColor="#000000"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/table_row_background">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Metro Timings"
+                    android:textSize="20sp"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="⏱Starting | Ending
+06:00 AM | 10:45 PM"
+                    android:textSize="16sp"
+                    android:textColor="#000000"/>
+
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="&#8226; The Noida Metro is a rapid transit system connecting the twin cities of Noida and Greater Noida in Gautam Buddh Nagar, Uttar Pradesh, India."
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="16dp"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textStyle="italic"
+            android:paddingRight="16dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="&#8226;Currently Noida Metro network consists of one line (called Aqua line)."
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textStyle="italic"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="&#8226;The 15 km extension will link Noida Sector 71 to Knowledge Park 5 in Greater Noida."
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textStyle="italic"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="&#8226; All 21 stations, the train depot, and the NMRC offices will be powered by solar energy."
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textStyle="italic"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="&#8226; The Noida Metro Rail Corporation (NMRC) has started parking facilities at 15 Metro stations."
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textStyle="italic"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="&#8226; Penalty for ticketless travel or lost ticket is Rs.200/- apart from maximum token fare."
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textStyle="italic"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="&#8226; NMRC envisages a unified, smart card based, multi-modal transport ticketing system for Noida City."
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textStyle="italic"/>
+    </LinearLayout>
+</ScrollView>

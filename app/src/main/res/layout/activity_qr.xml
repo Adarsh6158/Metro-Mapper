@@ -1,0 +1,54 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:gravity="center"
+        android:text="QR CODE TICKET"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#FF4081"
+        android:fontFamily="sans-serif-condensed"
+        android:shadowColor="#80000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="4"
+        android:layout_centerHorizontal="true" />
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_below="@id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="61dp"
+        android:src="@drawable/qrcode" />
+
+    <Button
+        android:id="@+id/downloadButton"
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/imageView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="Download"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:background="@drawable/gradient"
+        android:elevation="4dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:drawableStart="@drawable/download_button"
+        android:drawablePadding="8dp"
+        android:gravity="center" />
+
+</RelativeLayout>
