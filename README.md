@@ -20,15 +20,7 @@ Metro Mapper is an application designed to help people find the correct path to 
 - Plan your journey efficiently with accurate travel time estimates.
 
 
-## Screenshots![splashscreen](https://github.com/Adarsh6158/Metro-Mapper/assets/119891550/3d196e79-74b1-4408-a277-300fcf400da6)
-![intro](https://github.com/Adarsh6158/Metro-Mapper/assets/119891550/a268bfab-38a0-4ee6-ad3d-b0a989bba193)
-![delhi](https://github.com/Adarsh6158/Metro-Mapper/assets/119891550/bf6c8e1f-5d8a-4015-8162-4f252148bc23)
-![distance](https://github.com/Adarsh6158/Metro-Mapper/assets/119891550/3c7e2c28-6cad-464a-89e0-e25eea9bb7a6)
-![maps](https://github.com/Adarsh6158/Metro-Mapper/assets/119891550/edc45b5e-1c81-484d-95cb-df36a96c8055)
-![noida](https://github.com/Adarsh6158/Metro-Mapper/assets/119891550/e67e0e3f-5a4a-4bec-ab34-5fa773673d3f)![fare](https://github.com/Adarsh6158/Metro-Mapper/assets/119891550/aeafad97-c44f-476f-ae9e-9208bd9dbeca)
-
-![fare](https://github.com/Adarsh6158/Metro-Mapper/assets/119891550/a5b0ca64-9bb5-4d13-87a2-989425140a83)
-![payment](https://github.com/Adarsh6158/Metro-Mapper/assets/119891550/2280c29c-3a29-482b-b608-7be4277e5798)
+## Screenshots
 
 
 ## Contributing
