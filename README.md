@@ -36,6 +36,19 @@ Contributions are welcome! If you'd like to contribute to Metro Mapper, please f
 
 We appreciate your contributions to make Metro Mapper even better!
 
+## Download
+
+You can download the latest version of Metro Mapper APK by clicking [here](./app-release.apk).
+
+## Installation
+
+1. Download the APK file from the link above.
+2. On your Android device, go to **Settings** > **Security** or **Privacy**.
+3. Enable the **Unknown Sources** option to allow the installation of apps from external sources.
+4. Open the file manager or downloads folder on your device and locate the downloaded APK file.
+5. Tap on the APK file to initiate the installation process.
+6. Follow the on-screen prompts to install Metro Mapper on your device.
+
 
 
 ## Support
