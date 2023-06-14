@@ -38,7 +38,7 @@ We appreciate your contributions to make Metro Mapper even better!
 
 ## Download
 
-You can download the latest version of Metro Mapper APK by clicking [here](./MetroMapper.apk).
+You can download the latest version of Metro Mapper APK by clicking [here](./Metro Mapper.apk).
 
 ## Installation
 
